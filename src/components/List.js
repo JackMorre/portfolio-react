@@ -4,7 +4,7 @@ export const List = (props) => {
       <h2>{props.name}</h2>
       <ul>
         {props.list.map((listItem) => {
-          return <li>{listItem}</li>;
+          return <li key={listItem}>{listItem}</li>;
         })}
       </ul>
     </div>

@@ -14,7 +14,7 @@ export const App = () => {
     <div>
       <Introduction />
       {lists.map((list) => {
-        return <List name={list.title} list={list.listArr} />;
+        return <List name={list.title} list={list.listArr} key={list.title} />;
       })}
     </div>
   );
