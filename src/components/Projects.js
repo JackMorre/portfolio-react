@@ -1,21 +1,21 @@
-import theBodega from "../images/theBodega/theBodegaOne.png";
+import theBodega from "../images/theBodega/bodegaTitleNew.png";
 import tipCalulator from "../images/tipCalulator/tip.png";
 import omnifood from "../images/Omnifood/OmnifoodOne.png";
 
 export const Projects = () => {
   return (
     <section className="max-w-5xl mx-auto my-0 py-16">
-      <h3 className="text-center text-2xl pb-12">Projects</h3>
+      <h3 className="text-center text-2xl pb-12 text-teal-800">Projects</h3>
       <div className="flex justify-between">
         <div className="w-[300px] rounded-2xl shadow overflow-hidden flex flex-col">
           <div className="h-36 w-full overflow-hidden border-b-8 border-teal-700 border-solid">
             <img
-              className="card-img -translate-x-10"
+              className="card-img -translate-x-[130px] bodega"
               src={theBodega}
               alt="Bodega homepage from website"
             ></img>
           </div>
-          <div className="p-5 flex flex-col justify-between bg-gradient-to-t from-white from-60% to-teal-700 grow">
+          <div className="p-5 flex flex-col justify-between bg-gradient-to-tr from-white from-30% to-teal-700 grow">
             <h3 className="text-3xl text-center text-white uppercase pb-4">
               The Bodega
             </h3>
@@ -59,12 +59,12 @@ export const Projects = () => {
         <div className="w-[300px] rounded-2xl shadow overflow-hidden flex flex-col">
           <div className="h-36 w-full overflow-hidden border-b-8 border-teal-700 border-solid">
             <img
-              className="card-img -translate-x-10"
+              className="card-img -translate-x-[70px] -translate-y-[20px]"
               src={tipCalulator}
               alt="Bodega homepage from website"
             ></img>
           </div>
-          <div className="p-5 flex flex-col justify-between bg-gradient-to-t from-white from-60% to-teal-700 grow">
+          <div className="p-5 flex flex-col justify-between bg-gradient-to-t from-white from-200% to-teal-700 grow">
             <h3 className="text-3xl text-center text-white uppercase pb-4">
               Tip Calculator
             </h3>
@@ -108,12 +108,12 @@ export const Projects = () => {
         <div className="w-[300px] rounded-2xl shadow overflow-hidden flex flex-col">
           <div className="h-36 w-full overflow-hidden border-b-8 border-teal-700 border-solid">
             <img
-              className="card-img -translate-x-10"
+              className="card-img "
               src={omnifood}
               alt="Bodega homepage from website"
             ></img>
           </div>
-          <div className="p-5 flex flex-col justify-between bg-gradient-to-t from-white from-60% to-teal-700 grow">
+          <div className="p-5 flex flex-col justify-between bg-gradient-to-tl from-white from-30% to-teal-700 grow">
             <h3 className="text-3xl text-center text-white uppercase ">
               Omnifood
             </h3>

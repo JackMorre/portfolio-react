@@ -12,5 +12,9 @@
 
 .card-img {
   max-width: none;
-  height: 400px;
+  height: 350px;
+}
+
+.bodega {
+  height: 300px;
 }
