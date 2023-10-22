@@ -4,8 +4,10 @@ import omnifood from "../images/Omnifood/OmnifoodOne.png";
 
 export const Projects = () => {
   return (
-    <section className="max-w-5xl mx-auto my-0 py-16">
-      <h3 className="text-center text-2xl pb-12 text-teal-800">Projects</h3>
+    <section className="max-w-5xl mx-auto my-0 py-16 ">
+      <h3 className="text-center text-2xl pb-12 text-teal-800 font-main font-black">
+        Projects
+      </h3>
       <div className="flex justify-between">
         <div className="w-[300px] rounded-2xl shadow overflow-hidden flex flex-col">
           <div className="h-36 w-full overflow-hidden border-b-8 border-teal-700 border-solid">
@@ -15,11 +17,11 @@ export const Projects = () => {
               alt="Bodega homepage from website"
             ></img>
           </div>
-          <div className="p-5 flex flex-col justify-between bg-gradient-to-tr from-white from-30% to-teal-700 grow">
-            <h3 className="text-3xl text-center text-white uppercase pb-4">
+          <div className="p-5 flex flex-col justify-between  grow">
+            <h3 className="text-3xl text-center text-teal-600 uppercase pb-4 font-main">
               The Bodega
             </h3>
-            <p className="text-black text-center pb-4">
+            <p className="text-black text-center pb-4 font-main">
               A small little business in my home town of Norwich. Decided to set
               my self the challenge of producing a website from design all the
               way to a fully functioning website.
@@ -64,14 +66,14 @@ export const Projects = () => {
               alt="Bodega homepage from website"
             ></img>
           </div>
-          <div className="p-5 flex flex-col justify-between bg-gradient-to-t from-white from-200% to-teal-700 grow">
-            <h3 className="text-3xl text-center text-white uppercase pb-4">
+          <div className="p-5 flex flex-col justify-between grow">
+            <h3 className="text-3xl text-center text-teal-600 uppercase pb-4 font-main">
               Tip Calculator
             </h3>
-            <p className="text-black text-center pb-4">
-              A small little business in my home town of Norwich. Decided to set
-              my self the challenge of producing a website from design all the
-              way to a fully functioning website.
+            <p className="text-black text-center pb-4 font-main">
+              A simple tipe calculator that was create as a task from
+              frontendmentor.io. I was able to learn a lot about events with
+              this design.
             </p>
             <div className="flex justify-between gap-3 items-center">
               <a href="https://github.com/JackMorre/The_Bodega">
@@ -113,13 +115,13 @@ export const Projects = () => {
               alt="Bodega homepage from website"
             ></img>
           </div>
-          <div className="p-5 flex flex-col justify-between bg-gradient-to-tl from-white from-30% to-teal-700 grow">
-            <h3 className="text-3xl text-center text-white uppercase ">
+          <div className="p-5 flex flex-col justify-between  grow">
+            <h3 className="text-3xl text-center text-teal-600 uppercase font-main">
               Omnifood
             </h3>
-            <p className="text-black text-center ">
+            <p className="text-black text-center font-main">
               A fake business website that was completed for a course on Udemy.
-              This is where I learn most of the key CSS skills i have today.
+              This is where I learn most of the key CSS skills I have today.
             </p>
             <div className="flex justify-between gap-3 items-center">
               <a href="https://github.com/JackMorre/The_Bodega">
